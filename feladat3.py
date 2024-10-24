@@ -1,9 +1,9 @@
-def egyesek(lista, szam):
+def osztalyzatok_darabszama(lista, szam):
     db = 0
     i = 0
 
     while i < len(lista):
-        if lista[i] <=2:
-            db == 1
+        if lista[i] == szam:
+            db += 1
         i += 1
-    return szam
+    return db
